@@ -5,4 +5,4 @@ E3C is a freely available multilingual corpus (Italian, English, French, Spanish
 This work was partially supported by the Eu-ropean  Language  Grid  project  through  itsopen  call  for  pilot  projects  (EU  grant  no.825627),   and  by  the  Basque  Governmentpost-doctoral grant POS202020026.
 
 ## References
-Magnini, B., B. Altuna, A. Lavelli, M. Speranza, and R. Zanoli. 2020. The E3C Project: Collection and Annotation of a Multilingual Corpus of Clinical Cases. InProceedings of the Seventh Italian Conference on Computational Linguistics, Bologna, Italy, December. Associazione Italiana di Linguistica Computazionale.
+B. magnini, B. Altuna, A. Lavelli, M. Speranza, and R. Zanoli. 2020. The E3C Project: Collection and Annotation of a Multilingual Corpus of Clinical Cases. In Proceedings of the Seventh Italian Conference on Computational Linguistics, Bologna, Italy, December. Associazione Italiana di Linguistica Computazionale.
