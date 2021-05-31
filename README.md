@@ -41,6 +41,13 @@ We are currently annotating the collected data with two types of annotations: (i
 All documents are released under Creative Commons licenses.
 
 
+## Release Schedule
+v2.0.0
+date: July 2021
+new features:
+Clinical cases annotated
+
+
 ## Acknowledgements
 
 This work was partially supported by the European  Language  Grid  project  through  its open  call  for  pilot  projects  (EU  grant  no.825627),   and  by  the  Basque  Government post-doctoral grant POS202020026.
