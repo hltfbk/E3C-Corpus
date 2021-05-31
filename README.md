@@ -1,5 +1,5 @@
 # E3C-Corpus
-E3C is a freely available multilingual corpus (Italian, English, French, Spanish, and Basque) of semantically annotated clinical narratives to allow for the linguistic analysis, benchmarking, and training of information extraction systems. It consists of two types of annotations: (i) clinical entities (e.g., pathologies), (ii) temporal information and factuality (e.g., events). The corpus is organised into three layers, with different purposes. 
+E3C is a freely available multilingual corpus(English, French, Italian, Spanish, and Basque) of semantically annotated clinical narratives to allow for the linguistic analysis, benchmarking, and training of information extraction systems. It consists of two types of annotations: (i) clinical entities (e.g., pathologies), (ii) temporal information and factuality (e.g., events). The corpus is organised into three layers, with different purposes. 
 
 * Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarkingand linguistic analysis. 
 
@@ -27,7 +27,7 @@ The table below shows the number of documents(tokens) per language and layer. Th
 | Basque      | 90(22505)   | 111(12541)  | 1232(518244)    |
 
 ## Data Annotation
-The collected data are annotated with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e. SNOMED-CT, ICD-10); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. The annotated_dataset directory will contain this data.
+The collected data are annotated with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e. UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. The annotated_dataset directory will contain this data.
 
 ## Data Distribution adn Licence
 All documents will be released under Creative Commons licenses.
