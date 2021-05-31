@@ -44,11 +44,11 @@ All documents are released under Creative Commons licenses.
 ## Release Schedule
 v2.0.0
 
-date: July 2021
+Date: July 2021
 
-new features:
+New features:
 
-Clinical cases annotated
+* Clinical Cases annotated
 
 
 ## Acknowledgements
