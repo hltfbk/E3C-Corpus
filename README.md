@@ -1,5 +1,5 @@
 # E3C-Corpus
-E3C is a freely available multilingual corpus(English, French, Italian, Spanish, and Basque) of semantically annotated clinical narratives to allow for the linguistic analysis, benchmarking, and training of information extraction systems. It consists of two types of annotations: (i) clinical entities (e.g., pathologies), (ii) temporal information and factuality (e.g., events). The corpus is organised into three layers, with different purposes. 
+E3C is a freely available multilingual corpus (English, French, Italian, Spanish, and Basque) of semantically annotated clinical narratives to allow for the linguistic analysis, benchmarking, and training of information extraction systems. It consists of two types of annotations: (i) clinical entities (e.g., pathologies), (ii) temporal information and factuality (e.g., events). The corpus is organised into three layers, with different purposes. 
 
 * Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarkingand linguistic analysis. 
 
@@ -18,13 +18,13 @@ A clinical case is a statement of a clinical practice,presenting the reason for 
 
 The table below shows the number of documents(tokens) per language and layer. The non-annotated_dataset directory contains this data.  
 
-| Language    | L1          | L2          | L3              |          
-| ----------- | ----------- | ----------- | --------------- |
-| English     | 84(25142)   | 171(50371)  | 9779(1075709)   |
-| French      | 81(25196)   | 168(50490)  | 25740(66281501) |
-| Italian     | 86(24319)   | 174(49900)  | 10213(13601915) |
-| Spanish     | 81(24681)   | 162(49351)  | 1876(1030907)   |
-| Basque      | 90(22505)   | 111(12541)  | 1232(518244)    |
+| Language    | L1           | L2           | L3               |          
+| ----------- | ------------ | ------------ | ---------------- |
+| English     | 84 (25142)   | 171 (50371)  | 9779 (1075709)   |
+| French      | 81 (25196)   | 168 (50490)  | 25740 (66281501) |
+| Italian     | 86 (24319)   | 174 (49900)  | 10213 (13601915) |
+| Spanish     | 81 (24681)   | 162 (49351)  | 1876 (1030907)   |
+| Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
 
 ## Data Annotation
 The collected data are annotated with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e. UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. The annotated_dataset directory will contain this data.
