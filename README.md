@@ -20,7 +20,7 @@ The E3C corpus contains clinical narratives extracted either from publications, 
 
 * Layer 3: about 1M tokens per language of non-annotated medical documents to be exploited by semi-supervised approaches. 
 
-The table below shows the number of documents (tokens) per language and layer. The data_collection directory contains this data.  
+The table below shows the number of documents (tokens) per language and layer. Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) contains this data.  
 
 | Language    | L1           | L2           | L3               |          
 | ----------- | ------------ | ------------ | ---------------- |
@@ -33,7 +33,7 @@ The table below shows the number of documents (tokens) per language and layer. T
 
 ## Data Annotation
 
-We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. The data_annotation directory will contain these annotations.
+We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. Release v2.0.0 due to July 2021 will contain this data. 
 
 
 ## Data Distribution and Licence
