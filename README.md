@@ -15,6 +15,9 @@ A clinical case is a statement of a clinical practice,presenting the reason for 
 <code><i>A   25-year-old   man   with   a   historyof   Klippel-Trenaunay   syndrome   pre-sented  to  the  hospital  with  mucopuru-lent  bloody  stool  and  epigastric  persis-tent  colic  pain  for  2  wk.   Colonoscopyshowed continuous superficial ulcers andbleeding.Subsequent  gastroscopy  re-vealed  mucosa  with  diffuse  edema,  ul-cers,  errhysis,  and  granular  and  friablechanges  in  the  stomach  and  duodenalbulb.  A diagnosis of GDUC was consid-ered.  The patient hesitated about iv cor-ticosteroids, so he was treated with pen-tasa 3.2 g/d.  After 0.5 mo of treatment,the symptoms achieved complete remis-sion.  Follow-up examinations showed noevidence of recurrence for 26 mo.</i></code>
 
 ## Data Collection and Organization
+
+The table below shows the number of documents(tokens) per language and layer.
+
 | Language    | L1          | L2          | L3              |          
 | ----------- | ----------- | ----------- | --------------- |
 | English     | 84(25142)   | 171(50371)  | 9779(1075709)   |
