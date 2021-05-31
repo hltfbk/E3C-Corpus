@@ -20,7 +20,7 @@ The E3C corpus contains clinical narratives extracted either from publications, 
 
 * Layer 3: about 1M tokens per language of non-annotated medical documents to be exploited by semi-supervised approaches. 
 
-The table below shows the number of documents (tokens) per language and layer. Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) contains this data.  
+The table below shows the number of documents (tokens) per language and layer. Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains this data.  
 
 | Language    | L1           | L2           | L3               |          
 | ----------- | ------------ | ------------ | ---------------- |
