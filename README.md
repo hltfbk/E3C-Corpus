@@ -15,6 +15,13 @@ A clinical case is a statement of a clinical practice,presenting the reason for 
 <code><i>A   25-year-old   man   with   a   historyof   Klippel-Trenaunay   syndrome   pre-sented  to  the  hospital  with  mucopuru-lent  bloody  stool  and  epigastric  persis-tent  colic  pain  for  2  wk.   Colonoscopyshowed continuous superficial ulcers andbleeding.Subsequent  gastroscopy  re-vealed  mucosa  with  diffuse  edema,  ul-cers,  errhysis,  and  granular  and  friablechanges  in  the  stomach  and  duodenalbulb.  A diagnosis of GDUC was consid-ered.  The patient hesitated about iv cor-ticosteroids, so he was treated with pen-tasa 3.2 g/d.  After 0.5 mo of treatment,the symptoms achieved complete remis-sion.  Follow-up examinations showed noevidence of recurrence for 26 mo.</i></code>
 
 ## Data Collection and Organization
+| Language    | L1          | L2          | L3              |          
+| ----------- | ----------- | ----------- | --------------- |
+| English     | 84(25142)   | 171(50371)  | 9779(1075709)   |
+| French      | 81(25196)   | 168(50490)  | 25740(66281501) |
+| Italian     | 86(24319)   | 174(49900)  | 10213(13601915) |
+| Spanish     | 81(24681)   | 162(49351)  | 1876(1030907)   |
+| Basque      | 90(22505)   | 111(12541)  | 1232(518244)    |
 
 ## Data Annotation
 The E3C corpus contains two types of an-notations: (i) temporal information and factuality, and (ii) annotation of clinical entities, specifically disorders.
