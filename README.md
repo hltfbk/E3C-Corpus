@@ -1,5 +1,5 @@
 # E3C-Corpus
-E3C is a freely available multilingual corpus (Italian, English, French, Spanish, and Basque) of semantically annotated clinical narratives to allow for the linguistic analysis, benchmarking, and training of information extraction systems. It consists of two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e. SNOMED-CT, ICD-10); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. The corpus is organised into three layers, with different purposes. 
+E3C is a freely available multilingual corpus (Italian, English, French, Spanish, and Basque) of semantically annotated clinical narratives to allow for the linguistic analysis, benchmarking, and training of information extraction systems. It consists of two types of annotations: (i) clinical entities (e.g., pathologies), (ii) temporal information and factuality (e.g., events). The corpus is organised into three layers, with different purposes. 
 
 * Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarkingand linguistic analysis. 
 
@@ -16,7 +16,7 @@ A clinical case is a statement of a clinical practice,presenting the reason for 
 
 ## Data Collection and Organization
 
-The table below shows the number of documents(tokens) per language and layer.
+The table below shows the number of documents(tokens) per language and layer. The non-annotated_dataset directory contains this data.  
 
 | Language    | L1          | L2          | L3              |          
 | ----------- | ----------- | ----------- | --------------- |
@@ -27,10 +27,10 @@ The table below shows the number of documents(tokens) per language and layer.
 | Basque      | 90(22505)   | 111(12541)  | 1232(518244)    |
 
 ## Data Annotation
-The E3C corpus contains two types of an-notations: (i) temporal information and factuality, and (ii) annotation of clinical entities, specifically disorders.
+The collected data are annotated with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e. SNOMED-CT, ICD-10); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. The annotated_dataset directory will contain this data.
 
-## Data Distribution
-The E3C corpus will be available for download from the ELG platform repository. All documents will be released under Creative Commons licenses.
+## Data Distribution adn Licence
+All documents will be released under Creative Commons licenses.
 
 ## Acknowledgements
 This work was partially supported by the Eu-ropean  Language  Grid  project  through  itsopen  call  for  pilot  projects  (EU  grant  no.825627),   and  by  the  Basque  Governmentpost-doctoral grant POS202020026.
