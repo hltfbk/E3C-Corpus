@@ -68,6 +68,13 @@ Table 3: number of documents of short, medium and long length in Layer 1 and Lay
 
 **Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains all the documents collected through data collection.**
 
+## Data Cleaning
+
+With reference only to the documents of Layer 1, we applied a basic preprocessing step:
+
+* remove references to figures and tables.
+* remove sentences (at the beginng, or at the end) of documents that are not part of the clinical cases.
+* restore punctuation and capitalization.
 
 ## Data Annotation
 
