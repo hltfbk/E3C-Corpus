@@ -31,7 +31,8 @@ The E3C corpus contains clinical narratives extracted either from publications, 
 | Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
 
 Table 1: number of documents (tokens) per language and layer.
-&nbsp;
+\
+\
 
 
 
