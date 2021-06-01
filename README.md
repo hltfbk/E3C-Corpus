@@ -71,7 +71,7 @@ Table 3: number of documents of short, medium and long length in Layer 1 and Lay
 
 ## Data Annotation
 
-We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. Release v2.0.0 of the corpus will contain this data (see Release Schedule below). 
+We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. **Release v2.0.0 of the corpus will contain this data (see Release Schedule below).** 
 
 
 ## Data Distribution and Licence
