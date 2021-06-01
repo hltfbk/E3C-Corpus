@@ -32,7 +32,8 @@ The table below shows the number of documents (tokens) per language and layer. R
 
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
-| L1+L2       | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| L1+L2       |             |              |              |              |              |              |
 | ----------- | pubmed      | 91           | 48           | 0            | 0            | 0            |
 | ----------- | journal     | 164          | 201          | 206          | 0            | 201          |
 | ----------- | dataset     | 0            | 0            | 0            | 243          | 0            |
