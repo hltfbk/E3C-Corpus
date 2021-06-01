@@ -72,9 +72,9 @@ Table 3: number of documents of short, medium and long length in Layer 1 and Lay
 
 With reference only to the documents of Layer 1, we applied a basic preprocessing step:
 
-* remove references to figures and tables.
-* remove sentences (at the beginng, or at the end) of documents that are not part of the clinical cases.
-* restore punctuation and capitalization.
+* Remove references to figures and tables.
+* Remove sentences (at the beginng or at the end of diocuments) that are not part of clinical cases.
+* Restore punctuation and capitalization.
 
 ## Data Annotation
 
