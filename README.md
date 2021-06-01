@@ -58,7 +58,7 @@ Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of th
 
 ## Data Annotation
 
-We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. Release v2.0.0 will contain this data. 
+We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. Release v2.0.0 of the corpus will contain this data. 
 
 
 ## Data Distribution and Licence
