@@ -12,7 +12,7 @@ A clinical case is a statement of a clinical practice, presenting the reason for
 
 ## Data Collection and Organization
 
-The corpus is a collection of clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). It also contains medical documents collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 1 shows this ditribution.
+The E3C corpus is a collection of clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). The corpus also contains medical documents collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 1 shows this ditribution.
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
