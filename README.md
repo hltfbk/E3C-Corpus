@@ -52,7 +52,7 @@ Table 2 shows how the documents were assigned to the three different layers.
 Table 2: number of documents (tokens) per language and layer.
 <br/><br/>
 
-Since Layer 1 and Layer 2 are the core of the corpus, we have created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens) texts have been selected, as we presumed that text length would directly affect the temporal information in text; the longer the  text,  themore complex temporal graph.
+Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  themore complex temporal graph) we have created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
 
 | Layer       | Size        | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
