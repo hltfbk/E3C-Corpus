@@ -30,6 +30,8 @@ The table below shows the number of documents (tokens) per language and layer.
 | Spanish     | 81 (24681)   | 162 (49351)  | 1876 (1030907)   |
 | Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
 
+Table 1: number of documents (tokens) per language and layer.
+
 
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
@@ -44,6 +46,8 @@ The table below shows the number of documents (tokens) per language and layer.
 |             | journal     | 552          | 1436         | 592          | 504          | 0            |
 |             | dataset     | 0            | 0            | 0            | 1372         | 0            |
 |             | other       | 0            | 24220        | 9621         | 0            | 1232         |
+
+Table 2: number of documents per type of source and layer.
 
 
 Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains data collected through data collection.
