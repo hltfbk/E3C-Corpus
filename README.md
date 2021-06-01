@@ -52,7 +52,7 @@ Table 2 shows how the documents were assigned to the three different layers.
 Table 2: number of documents (tokens) per language and layer.
 <br/><br/>
 
-Layer 1 and Layer 2 are the core of the corpus and special attention has been awarded to creating a balanced document set in terms of size. Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens) texts have been selected, as we presumed that text length would directly affect the temporal information in text; the longer the  text,  themore complex temporal graph.
+Layer 1 and Layer 2 are the core of the corpus and special attention has been awarded to creating a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens) texts have been selected, as we presumed that text length would directly affect the temporal information in text; the longer the  text,  themore complex temporal graph.
 
 | Layer       | Size        | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -65,7 +65,7 @@ Layer 1 and Layer 2 are the core of the corpus and special attention has been aw
 |             | medium      | 57           | 56           | 60           | 54           | 1            |
 |             | long        | 57           | 56           | 56           | 54           | 4            |
 
-Table 3: number of documents .
+Table 3: number of documents of short, medium and long length in Layer 1 and Layer 2.
 <br/><br/>
 
 Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains data collected through data collection.
