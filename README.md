@@ -20,7 +20,7 @@ The E3C corpus contains clinical narratives extracted either from publications, 
 
 * Layer 3: about 1M tokens per language of non-annotated medical documents to be exploited by semi-supervised approaches. 
 
-The table below shows the number of documents (tokens) per language and layer. Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains this data.  
+The table below shows the number of documents (tokens) per language and layer. 
 
 | Language    | L1           | L2           | L3               |          
 | ----------- | ------------ | ------------ | ---------------- |
@@ -31,13 +31,22 @@ The table below shows the number of documents (tokens) per language and layer. R
 | Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
 
 
+
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | L1+L2       |             |              |              |              |              |              |
-| ----------- | pubmed      | 91           | 48           | 0            | 0            | 0            |
-| ----------- | journal     | 164          | 201          | 206          | 0            | 201          |
-| ----------- | dataset     | 0            | 0            | 0            | 243          | 0            |
-| ----------- | other       | 0            | 0            | 54           | 0            | 0            |
+|             | pubmed      | 91           | 48           | 0            | 0            | 0            |
+|             | journal     | 164          | 201          | 206          | 0            | 201          |
+|             | dataset     | 0            | 0            | 0            | 243          | 0            |
+|             | other       | 0            | 0            | 54           | 0            | 0            |
+| L3          |             |              |              |              |              |              |
+|             | pubmed      | 9227         | 84           | 0            | 0            | 0            |
+|             | journal     | 552          | 1436         | 592          | 504          | 0            |
+|             | dataset     | 0            | 0            | 0            | 1372         | 0            |
+|             | other       | 0            | 24220        | 9621         | 0            | 1232         |
+
+
+Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains data collected through data collection.
 
 
 ## Data Annotation
