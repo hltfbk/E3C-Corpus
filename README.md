@@ -12,7 +12,29 @@ A clinical case is a statement of a clinical practice, presenting the reason for
 
 ## Data Collection and Organization
 
-The E3C corpus is a collection of clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). The corpus also contains medical documents collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 1 shows this ditribution.
+The E3C corpus is organised into three layers, with different purposes.
+
+* Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarking and linguistic analysis. 
+
+* Layer 2: 50-100K tokens per language with semi-automatic annotations of clinical entities, to be used to train baseline systems. 
+
+* Layer 3: about 1M tokens per language of non-annotated medical documents to be exploited by semi-supervised approaches. 
+<br/><br/> 
+
+Table 1 shows how the documents were assigned to the three different layers.
+
+| Language    | L1           | L2           | L3               |          
+| ----------- | ------------ | ------------ | ---------------- |
+| English     | 84 (25142)   | 171 (50371)  | 9779 (1075709)   |
+| French      | 81 (25196)   | 168 (50490)  | 25740 (66281501) |
+| Italian     | 86 (24319)   | 174 (49900)  | 10213 (13601915) |
+| Spanish     | 81 (24681)   | 162 (49351)  | 1876 (1030907)   |
+| Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
+
+Table 1: number of documents (tokens) per language and layer.
+<br/><br/>
+
+We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this ditribution.
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -27,32 +49,10 @@ The E3C corpus is a collection of clinical narratives extracted either from publ
 |             | dataset     | 0            | 0            | 0            | 1372         | 0            |
 |             | other       | 0            | 24220        | 9621         | 0            | 1232         |
 
-Table 1: number of documents per source and layer.
+Table 2: number of documents per source and layer.
 <br/><br/>
 
-The corpus is organised into three layers, with different purposes.
-
-* Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarking and linguistic analysis. 
-
-* Layer 2: 50-100K tokens per language with semi-automatic annotations of clinical entities, to be used to train baseline systems. 
-
-* Layer 3: about 1M tokens per language of non-annotated medical documents to be exploited by semi-supervised approaches. 
-<br/><br/> 
-
-Table 2 shows how the documents were assigned to the three different layers.
-
-| Language    | L1           | L2           | L3               |          
-| ----------- | ------------ | ------------ | ---------------- |
-| English     | 84 (25142)   | 171 (50371)  | 9779 (1075709)   |
-| French      | 81 (25196)   | 168 (50490)  | 25740 (66281501) |
-| Italian     | 86 (24319)   | 174 (49900)  | 10213 (13601915) |
-| Spanish     | 81 (24681)   | 162 (49351)  | 1876 (1030907)   |
-| Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
-
-Table 2: number of documents (tokens) per language and layer.
-<br/><br/>
-
-Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  themore complex temporal graph) we have created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
+Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  themore complex temporal graph) we created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
 
 | Layer       | Size        | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
