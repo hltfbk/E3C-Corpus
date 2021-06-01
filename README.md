@@ -78,7 +78,7 @@ We are currently annotating the collected data with two types of annotations: (i
 
 ## Data Distribution and Licence
 
-All documents are released under Creative Commons licenses.
+All documents are released under Creative Commons license.
 
 
 ## E3C Project Web Site
