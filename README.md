@@ -90,8 +90,8 @@ We are currently annotating the collected data with two types of annotations: (i
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     |              |              |              | 81           | 90           |
-| Sentences           |                     |              |              |              | 1134         | 3126         |
-| Tokens              |                     |              |              |              | 28815        | 34052        |
+| Sentences*          |                     |              |              |              | 1134         | 3126         |
+| Tokens*             |                     |              |              |              | 28815        | 34052        |
 |                     | CLINENTITY          |              |              |              | 1345         | 199          |
 |                     | EVENT               |              |              |              | 4767         | 7910         |
 |                     | ACTOR               |              |              |              | 319          | 505          |
@@ -103,7 +103,7 @@ We are currently annotating the collected data with two types of annotations: (i
 |                     | EVENTTLINKLink      |              |              |              | 4096         | 7012         |
 |                     | EVENTALINKLink      |              |              |              | 92           | 113          |
 
-Table 4: number of manually annotated entities in Layer 1. Sentence splitting and tokenization produced by webanno tokenizer.
+Table 4: number of manually annotated entities in Layer 1. (*) produced by webanno tokenizer.
 <br/><br/>
 
 
@@ -114,12 +114,12 @@ Clinical entities in these documents have been automatically recognized by UMLS 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     | 171          | 168          | 174          | 162          | 111          |
-| Sentences           |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
-| Tokens              |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
+| Sentences*          |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
+| Tokens*             |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
 |                     | CLINENTITY          | 2140         | 2033         | 1686         | 2625         | 488          |
 
 
-Table 5: number of automatically annotated entities in Layer 2. Sentence splitting and tokenization produced by webanno tokenizer.
+Table 5: number of automatically annotated entities in Layer 2. (*) produced by webanno tokenizer.
 <br/><br/>
 
 
@@ -130,11 +130,11 @@ About 10% of the tokens annotated in Layer 2 have been manually verified.
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     |  19          | 18           |  18          |  18          | 10           |
-| Sentences           |                     |  334         | 293          |  275         |  261         | 468          |
-| Tokens              |                     |  6654        | 6220         |  6698        |  6361        | 5031         |
+| Sentences*          |                     |  334         | 293          |  275         |  261         | 468          |
+| Tokens*             |                     |  6654        | 6220         |  6698        |  6361        | 5031         |
 |                     | CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
 
-Table 6: number of curated entities in Layer 2. Sentence splitting and tokenization produced by webanno tokenizer.
+Table 6: number of curated entities in Layer 2. (*) produced by webanno tokenizer.
 <br/><br/>
 
 
