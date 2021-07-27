@@ -81,6 +81,41 @@ With reference only to the documents of Layer 1, we applied a basic preprocessin
 We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. **Release v2.0.0 of the corpus will contain this data (see Release Schedule below).** 
 
 
+| Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| CLINENTITY          |              |              |              |              | 199          |
+| EVENT               |              |              |              |              | 7910         |
+| ACTOR               |              |              |              |              | 505          |
+| BODYPART            |              |              |              |              | 1410         |
+| TIMEX3              |              |              |              |              | 638          |
+| RML                 |              |              |              |              | 1101         |
+| TIMEX3TimexLinkLink |              |              |              |              | 969          |
+| RMLPERTAINSTOLink   |              |              |              |              | 1196         |
+| EVENTTLINKLink      |              |              |              |              | 7012         |
+| EVENTALINKLink      |              |              |              |              | 113          |
+
+Table 4: number of manually annotated entities in Layer 1.
+<br/><br/>
+
+
+| Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| CLINENTITY          |  2140        | 2033         |  1686        |  2625        | 488          |
+
+
+Table 5: number of automatically annotated entities in Layer 2.
+<br/><br/>
+
+
+## Data Curation
+
+| Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
+
+Table 6: number of curated entities in Layer 2.
+<br/><br/>
+
 ## Data Distribution and Licence
 
 All documents are released under Creative Commons license.
