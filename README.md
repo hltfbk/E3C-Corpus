@@ -29,7 +29,7 @@ The E3C corpus is organised into three layers, with different purposes (Table 1)
 | Spanish     | 81 (24681)   | 162 (49351)  | 1876 (1030907)   |
 | Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
 
-Table 1: number of documents (tokens) per language and layer.
+Table 1: number of documents (tokens counted by whitespace tokenizer) per language and layer.
 <br/><br/>
 
 We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this ditribution.
@@ -68,6 +68,7 @@ Table 3: number of documents of short, medium and long length in Layer 1 and Lay
 
 **Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains all the documents collected through data collection.**
 
+
 ## Data Cleaning
 
 With reference only to the documents of Layer 1, we applied a basic preprocessing step:
@@ -76,47 +77,69 @@ With reference only to the documents of Layer 1, we applied a basic preprocessin
 * Remove references to figures and tables.
 * Restore punctuation and capitalization.
 
+
 ## Data Annotation
+
+The documents in Layer 1 contain full manual annotation of clinical entities, temporal information and factuality, for benchmarking and linguistic analysis. The documents in Layer 2 contain semi-automatic annotations of clinical entities.
+
+### L1
 
 We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. **Release v2.0.0 of the corpus will contain this data (see Release Schedule below).** 
 
 
-| Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| CLINENTITY          |              |              |              |  1345        |  199         |
-| EVENT               |              |              |              |  4767        | 7910         |
-| ACTOR               |              |              |              |  319         | 505          |
-| BODYPART            |              |              |              |  814         | 1410         |
-| TIMEX3              |              |              |              |  383         | 638          |
-| RML                 |              |              |              |  391         | 1101         |
-| TIMEX3TimexLinkLink |              |              |              |  604         | 969          |
-| RMLPERTAINSTOLink   |              |              |              |  473         | 1196         |
-| EVENTTLINKLink      |              |              |              |  4096        | 7012         |
-| EVENTALINKLink      |              |              |              |  92          | 113          |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     |              |              |              | 81           | 90           |
+| Sentences*          |                     |              |              |              | 1134         | 3126         |
+| Tokens*             |                     |              |              |              | 28815        | 34052        |
+|                     | CLINENTITY          |              |              |              | 1345         | 199          |
+|                     | EVENT               |              |              |              | 4767         | 7910         |
+|                     | ACTOR               |              |              |              | 319          | 505          |
+|                     | BODYPART            |              |              |              | 814          | 1410         |
+|                     | TIMEX3              |              |              |              | 383          | 638          |
+|                     | RML                 |              |              |              | 391          | 1101         |
+|                     | TIMEX3TimexLinkLink |              |              |              | 604          | 969          |
+|                     | RMLPERTAINSTOLink   |              |              |              | 473          | 1196         |
+|                     | EVENTTLINKLink      |              |              |              | 4096         | 7012         |
+|                     | EVENTALINKLink      |              |              |              | 92           | 113          |
 
-Table 4: number of manually annotated entities in Layer 1.
+Table 4: number of manually annotated entities in Layer 1.<br>
+(*) produced by WebAnno
 <br/><br/>
 
 
-| Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| CLINENTITY          |  2140        | 2033         |  1686        |  2625        | 488          |
+### L2
+
+Clinical entities in these documents have been automatically recognized by UMLS dictionary matching.
+
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     | 171          | 168          | 174          | 162          | 111          |
+| Sentences*          |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
+| Tokens*             |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
+|                     | CLINENTITY          | 2140         | 2033         | 1686         | 2625         | 488          |
 
 
-Table 5: number of automatically annotated entities in Layer 2.
+Table 5: number of automatically annotated entities in Layer 2.<br>
+(*) produced by WebAnno
 <br/><br/>
 
 
 ## Data Curation
 
+About 10% of the tokens annotated in Layer 2 have been manually verified.
+
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     |  19          | 18           |  18          |  18          | 10           |
-| Tokens              |                     |  5783        | 5401         |  5551        |  5595        | 4009         |
+| Sentences*          |                     |  334         | 293          |  275         |  261         | 468          |
+| Tokens*             |                     |  6654        | 6220         |  6698        |  6361        | 5031         |
 |                     | CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
 
-Table 6: number of curated entities in Layer 2.
+Table 6: number of curated entities in Layer 2.<br>
+(*) produced by WebAnno
 <br/><br/>
+
 
 ## Data Distribution and Licence
 
