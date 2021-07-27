@@ -87,20 +87,23 @@ The documents in Layer 1 contain full manual annotation of clinical entities, te
 We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. **Release v2.0.0 of the corpus will contain this data (see Release Schedule below).** 
 
 
-| Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| CLINENTITY          |              |              |              |  1345        |  199         |
-| EVENT               |              |              |              |  4767        | 7910         |
-| ACTOR               |              |              |              |  319         | 505          |
-| BODYPART            |              |              |              |  814         | 1410         |
-| TIMEX3              |              |              |              |  383         | 638          |
-| RML                 |              |              |              |  391         | 1101         |
-| TIMEX3TimexLinkLink |              |              |              |  604         | 969          |
-| RMLPERTAINSTOLink   |              |              |              |  473         | 1196         |
-| EVENTTLINKLink      |              |              |              |  4096        | 7012         |
-| EVENTALINKLink      |              |              |              |  92          | 113          |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     |              |              |              | 81           | 90           |
+| Sentences           |                     |              |              |              | 1134         | 3126         |
+| Tokens              |                     |              |              |              | 28815        | 34052        |
+|                     | CLINENTITY          |              |              |              | 1345         | 199          |
+|                     | EVENT               |              |              |              | 4767         | 7910         |
+|                     | ACTOR               |              |              |              | 319          | 505          |
+|                     | BODYPART            |              |              |              | 814          | 1410         |
+|                     | TIMEX3              |              |              |              | 383          | 638          |
+|                     | RML                 |              |              |              | 391          | 1101         |
+|                     | TIMEX3TimexLinkLink |              |              |              | 604          | 969          |
+|                     | RMLPERTAINSTOLink   |              |              |              | 473          | 1196         |
+|                     | EVENTTLINKLink      |              |              |              | 4096         | 7012         |
+|                     | EVENTALINKLink      |              |              |              | 92           | 113          |
 
-Table 4: number of manually annotated entities in Layer 1.
+Table 4: number of manually annotated entities in Layer 1. Sentence splitting and tokenizations produced by webanno tokenizer.
 <br/><br/>
 
 
@@ -108,9 +111,12 @@ Table 4: number of manually annotated entities in Layer 1.
 
 Clinical entities in these documents have been automatically recognized by UMLS dictionary matching.
 
-| Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| CLINENTITY          |  2140        | 2033         |  1686        |  2625        | 488          |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     | 171          | 168          | 174          | 162          | 111          |
+| Sentences           |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
+| Tokens              |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
+|                     | CLINENTITY          | 2140         | 2033         | 1686         | 2625         | 488          |
 
 
 Table 5: number of automatically annotated entities in Layer 2.
