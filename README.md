@@ -68,6 +68,7 @@ Table 3: number of documents of short, medium and long length in Layer 1 and Lay
 
 **Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains all the documents collected through data collection.**
 
+
 ## Data Cleaning
 
 With reference only to the documents of Layer 1, we applied a basic preprocessing step:
@@ -76,7 +77,12 @@ With reference only to the documents of Layer 1, we applied a basic preprocessin
 * Remove references to figures and tables.
 * Restore punctuation and capitalization.
 
+
 ## Data Annotation
+
+The documents in Layer 1 contain full manual annotation of clinical entities, temporal information and factuality, for benchmarking and linguistic analysis. The documents in Layer 2 contain semi-automatic annotations of clinical entities.
+
+### L1
 
 We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. **Release v2.0.0 of the corpus will contain this data (see Release Schedule below).** 
 
@@ -98,6 +104,10 @@ Table 4: number of manually annotated entities in Layer 1.
 <br/><br/>
 
 
+### L2
+
+Clinical entities in these documents have been automatically recognized by UMLS dictionary matching.
+
 | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | CLINENTITY          |  2140        | 2033         |  1686        |  2625        | 488          |
@@ -109,6 +119,8 @@ Table 5: number of automatically annotated entities in Layer 2.
 
 ## Data Curation
 
+About 10% of the tokens annotated in Layer 2 have been manually verified.
+
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     |  19          | 18           |  18          |  18          | 10           |
@@ -117,6 +129,7 @@ Table 5: number of automatically annotated entities in Layer 2.
 
 Table 6: number of curated entities in Layer 2.
 <br/><br/>
+
 
 ## Data Distribution and Licence
 
