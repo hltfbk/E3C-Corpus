@@ -112,6 +112,7 @@ Table 5: number of automatically annotated entities in Layer 2.
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     |  19          | 18           |  18          |  18          | 10           |
+| Tokens              |                     |  5783        | 5401         |  5551        |  5595        | 4009         |
 |                     | CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
 
 Table 6: number of curated entities in Layer 2.
