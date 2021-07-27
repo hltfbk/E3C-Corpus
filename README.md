@@ -83,16 +83,16 @@ We are currently annotating the collected data with two types of annotations: (i
 
 | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| CLINENTITY          |              |              |              |              | 199          |
-| EVENT               |              |              |              |              | 7910         |
-| ACTOR               |              |              |              |              | 505          |
-| BODYPART            |              |              |              |              | 1410         |
-| TIMEX3              |              |              |              |              | 638          |
-| RML                 |              |              |              |              | 1101         |
-| TIMEX3TimexLinkLink |              |              |              |              | 969          |
-| RMLPERTAINSTOLink   |              |              |              |              | 1196         |
-| EVENTTLINKLink      |              |              |              |              | 7012         |
-| EVENTALINKLink      |              |              |              |              | 113          |
+| CLINENTITY          |              |              |              |  1345        |  199         |
+| EVENT               |              |              |              |  4767        | 7910         |
+| ACTOR               |              |              |              |  319         | 505          |
+| BODYPART            |              |              |              |  814         | 1410         |
+| TIMEX3              |              |              |              |  383         | 638          |
+| RML                 |              |              |              |  391         | 1101         |
+| TIMEX3TimexLinkLink |              |              |              |  604         | 969          |
+| RMLPERTAINSTOLink   |              |              |              |  473         | 1196         |
+| EVENTTLINKLink      |              |              |              |  4096        | 7012         |
+| EVENTALINKLink      |              |              |              |  92          | 113          |
 
 Table 4: number of manually annotated entities in Layer 1.
 <br/><br/>
