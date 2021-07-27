@@ -110,7 +110,7 @@ Table 5: number of automatically annotated entities in Layer 2.
 ## Data Curation
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-|                     | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | Documents           |                     |  19          | 18           |  18          |  18          | 10           |
 |                     | CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
 
