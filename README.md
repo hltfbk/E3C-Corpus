@@ -92,7 +92,7 @@ We are currently annotating the collected data with two types of annotations: (i
 | Documents           |                     |              |              |              | 81           | 90           |
 | Sentences*          |                     |              |              |              | 1134         | 3126         |
 | Tokens*             |                     |              |              |              | 28815        | 34052        |
-|                     | CLINENTITY          |              |              |              | 1345         | 199          |
+|                     | CLINENTITY          |              |              |              | 1345         | 2109         |
 |                     | EVENT               |              |              |              | 4767         | 7910         |
 |                     | ACTOR               |              |              |              | 319          | 505          |
 |                     | BODYPART            |              |              |              | 814          | 1410         |
