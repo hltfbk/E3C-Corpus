@@ -137,9 +137,14 @@ Table 6: number of curated entities in Layer 2.<br>
 <br/><br/>
 
 
+## Data Distribution and Licence
+
+The E3C corpus is released under Creative Commons NonCommercial license (**CC BY-NC**).
+
+
 ## E3C for Machine Learning
 
-The E3C corpus allows for training and evaluation of information extraction systems. 
+The E3C corpus allows for training and evaluation of information extraction systems. To let researchers to compare their methods under the same experimental conditions, the three layers of which E3 is made have to be used as following. 
 
 Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt).
 
@@ -147,11 +152,6 @@ Layer 2: 50-100K tokens per language of clinical narratives with automatic annot
 This data can be used together with or alternatively to the training data of Layer 1 to train the models.
 
 Layer 3: about  1M  tokens  per  language  ofnon-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
-
-
-## Data Distribution and Licence
-
-The E3C corpus is released under Creative Commons NonCommercial license (**CC BY-NC**).
 
 
 ## E3C Project Web Site
