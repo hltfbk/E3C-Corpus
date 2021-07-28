@@ -123,7 +123,7 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 
 ## Data Curation
 
-About 10% of the tokens annotated in Layer 2 have been manually verified.
+About 10% of the tokens annotated in Layer 2 with clinical entities have been manually verified.
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
