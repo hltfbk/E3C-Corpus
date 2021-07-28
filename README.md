@@ -32,7 +32,7 @@ The E3C corpus is organised into three layers, with different purposes (Table 1)
 Table 1: number of documents (tokens counted by whitespace tokenizer) per language and layer.
 <br/><br/>
 
-We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this ditribution.
+We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this distribution.
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -50,7 +50,7 @@ We collected clinical narratives extracted either from publications, such as Pub
 Table 2: number of documents per source and layer.
 <br/><br/>
 
-Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  themore complex temporal graph) we created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
+Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  the more complex temporal graph) we created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
 
 | Layer       | Size        | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -73,7 +73,7 @@ Table 3: number of documents of short, medium and long length in Layer 1 and Lay
 
 With reference only to the documents of Layer 1, we applied a basic preprocessing step:
 
-* Remove sentences (at the beginng or at the end of diocuments) that are not part of clinical cases.
+* Remove sentences (at the beginning or at the end of documents) that are not part of clinical cases.
 * Remove references to figures and tables.
 * Restore punctuation and capitalization.
 
@@ -151,7 +151,7 @@ Layer 1: about 25K tokens per language of clinical narratives with full manual a
 Layer 2: 50-100K tokens per language of clinical narratives with automatic annotation of clinical entities and manual check of a small sample (about 10%) of this annotation. 
 This data can be used together with or alternatively to the training data of Layer 1 to train the models.
 
-Layer 3: about  1M  tokens  per  language  ofnon-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
+Layer 3: about  1M  tokens  per  language  of non-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
 
 
 ## E3C Project Web Site
