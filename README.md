@@ -104,7 +104,7 @@ We are currently annotating the collected data with two types of annotations: (i
 |                     | EVENTALINKLink      |              |              |              | 92           | 113          |
 
 Table 4: number of manually annotated entities in Layer 1.<br>
-(*) produced by WebAnno
+(*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
 
 
@@ -121,7 +121,7 @@ Clinical entities in these documents have been automatically recognized by UMLS 
 
 
 Table 5: number of automatically annotated entities in Layer 2.<br>
-(*) produced by WebAnno
+(*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
 
 
@@ -137,7 +137,7 @@ About 10% of the tokens annotated in Layer 2 have been manually verified.
 |                     | CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
 
 Table 6: number of curated entities in Layer 2.<br>
-(*) produced by WebAnno
+(*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
 
 
