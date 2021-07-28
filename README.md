@@ -155,7 +155,7 @@ Layer 3: about  1M  tokens  per  language  ofnon-annotated medical documents (no
 
 ## Data Distribution and Licence
 
-All documents are released under Creative Commons license.
+The E3C corpus is released under Creative Commons NonCommercial license (**CC BY-NC**).
 
 
 ## E3C Project Web Site
