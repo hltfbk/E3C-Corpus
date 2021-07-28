@@ -90,7 +90,7 @@ The documents in Layer 1 contain full manual annotation of clinical entities, te
 | Documents           |                     |              |              |              | 81           | 90           |
 | Sentences*          |                     |              |              |              | 1134         | 3126         |
 | Tokens*             |                     |              |              |              | 28815        | 34052        |
-|                     | CLINENTITY          |              |              |              | 1345         | 2109         |
+|                     | CLINENTITY          |              |              |              | 1345         | 1910         |
 |                     | EVENT               |              |              |              | 4767         | 7910         |
 |                     | ACTOR               |              |              |              | 319          | 505          |
 |                     | BODYPART            |              |              |              | 814          | 1410         |
