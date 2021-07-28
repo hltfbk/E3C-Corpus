@@ -12,7 +12,7 @@ A clinical case is a statement of a clinical practice, presenting the reason for
 
 ## Data Collection and Organization
 
-The E3C corpus is organised into three layers, with different purposes (Table 1).
+The E3C corpus is organised into three layers (Table 1).
 
 * Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarking and linguistic analysis. 
 
