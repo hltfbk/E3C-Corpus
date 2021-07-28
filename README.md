@@ -16,7 +16,7 @@ The E3C corpus is organised into three layers, with different purposes (Table 1)
 
 * Layer 1: about 25K tokens per language with full manual annotation of clinical entities, temporal information and factuality, for benchmarking and linguistic analysis. 
 
-* Layer 2: 50-100K tokens per language with semi-automatic annotations of clinical entities, to be used to train baseline systems. 
+* Layer 2: 50-100K tokens per language with semi-automatic annotations of clinical entities. 
 
 * Layer 3: about 1M tokens per language of non-annotated medical documents to be exploited by semi-supervised approaches. 
 <br/><br/> 
@@ -139,6 +139,18 @@ About 10% of the tokens annotated in Layer 2 have been manually verified.
 Table 6: number of curated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
+
+
+## E3C for Machine Learning
+
+The E3C corpus allows for training and evaluation of information extraction systems. 
+
+Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt).
+
+Layer 2: 50-100K tokens per language of clinical narratives with automatic annotation of clinical entities and manual check of a small sample (about 10%) of this annotation. 
+This data can be used together with or alternatively to the training data of Layer 1 to train the models.
+
+Layer 3: about  1M  tokens  per  language  ofnon-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
 
 
 ## Data Distribution and Licence
