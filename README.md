@@ -108,16 +108,13 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 
 **Layer 2:** Clinical entities in these documents have been automatically recognized by UMLS dictionary matching.
 
-|                     | Entity              |                     | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Documents           |                     |                     | 171          | 168          | 174          | 162          | 111          |
-| Sentences*          |                     |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
-| Tokens*             |                     |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
-|                     | CLINENTITY          |                     |              |              |              |              |              |
-|                     |                     | Number              | 2140         | 2033         | 1686         | 2625         | 488          |
-|                     |                     | Precision           | 2140         | 2033         | 1686         | 76.45        | 488          |
-|                     |                     | Recall              | 2140         | 2033         | 1686         | 67.88        | 488          |
-|                     |                     | F1                  | 2140         | 2033         | 1686         | 71.91        | 488          |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     | 171          | 168          | 174          | 162          | 111          |
+| Sentences*          |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
+| Tokens*             |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
+|                     | CLINENTITY          | 2140         | 2033         | 1686         | 2625         | 488          |
+
 
 Table 5: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
@@ -128,12 +125,17 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 
 About 10% of the tokens annotated in Layer 2 with clinical entities have been manually verified.
 
-|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Documents           |                     |  19          | 18           |  18          |  18          | 10           |
-| Sentences*          |                     |  334         | 293          |  275         |  261         | 468          |
-| Tokens*             |                     |  6654        | 6220         |  6698        |  6361        | 5031         |
-|                     | CLINENTITY          |  254         | 272          |  226         |  330         | 336          |
+|                     | Entity              | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     |                     |  19          | 18           | 18           | 18           | 10           |
+| Sentences*          |                     |                     |  334         | 293          | 275          | 261          | 468          |
+| Tokens*             |                     |                     |  6654        | 6220         | 6698         | 6361         | 5031         |
+|                     | CLINENTITY          |                     |              |              |              |              |              |
+|                     |                     | Number              |  254         | 272          | 226          | 330          | 336          |
+|                     |                     | Precision           | 2140         | 2033         | 1686         | 76.45        | 488          |
+|                     |                     | Recall              | 2140         | 2033         | 1686         | 67.88        | 488          |
+|                     |                     | F1                  | 2140         | 2033         | 1686         | 71.91        | 488          |
+
 
 Table 6: number of curated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
