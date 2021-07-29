@@ -35,7 +35,7 @@ Table 1: number of documents (tokens counted by whitespace) per language and lay
 We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this distribution.
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
-| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | -----------: |
+| ----------- | ----------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | L1+L2       |             |              |              |              |              |              |
 |             | pubmed      | 91           | 48           | 0            | 0            | 0            |
 |             | journal     | 164          | 201          | 206          | 0            | 201          |
@@ -52,8 +52,8 @@ Table 2: number of documents per source and layer.
 
 Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  the more complex temporal graph) we created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
 
-| Layer       | Size        | English     :| French      :| Italian     :| Spanish     :| Basque      :|
-| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Layer       | Size        | English      | French       | Italian      | Spanish      | Basque       |
+| ----------- | ----------: | -----------: | -----------: | -----------: | -----------: | -----------: |
 | L1          |             |              |              |              |              |              |
 |             | short       | 28           | 24           | 29           | 27           | 36           |
 |             | medium      | 28           | 29           | 29           | 27           | 44           |
@@ -85,8 +85,8 @@ The documents in Layer 1 contain full manual annotation of clinical entities, te
 **Layer 1:** We are currently annotating the collected data with two types of annotations: (i) clinical entities: pathologies, symptoms, procedures, body parts, etc., according to standard clinical taxonomies (i.e., UMLS); and (ii) temporal information and factuality: events, time expressions, and temporal relations according to the THYME standard. **Release v2.0.0 of the corpus will contain this data (see Release Schedule below).** 
 
 
-|                     | Entity              | English     :| French      :| Italian     :| Spanish     :| Basque      :|
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | Documents           |                     |              |              |              | 81           | 90           |
 | Sentences*          |                     |              |              |              | 1134         | 3126         |
 | Tokens*             |                     |              |              |              | 28815        | 34052        |
@@ -108,8 +108,8 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 
 **Layer 2:** Clinical entities in these documents have been automatically recognized by dictionary matching. The dictionary of each language was obtained by combining the entities present in the UMLS dictionaries of that language, and the entities annotated in the training split of Layer 1.
 
-|                     | Entity              | English     :| French      :| Italian     :| Spanish     :| Basque      :|
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | Documents           |                     | 171          | 168          | 174          | 162          | 111          |
 | Sentences*          |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
 | Tokens*             |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
@@ -124,8 +124,8 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 
 To have an overall estimation of the quality of the clinical entities in Layer 2, about 10% of the tokens in Layer 2 have been manually annotated (Table 6). Table 7 reports the accuracy values calculated on the entities extracted by dictionary matching from this subset of tokens.
 
-|                     | Entity              | English     :| French      :| Italian     :| Spanish     :| Basque      :|
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | Documents           |                     | 19           | 18           | 18           | 18           | 10           |
 | Sentences*          |                     | 334          | 293          | 275          | 261          | 468          |
 | Tokens*             |                     | 6654         | 6220         | 6698         | 6361         | 5031         |
@@ -135,8 +135,8 @@ Table 6: number of manually annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 
 
-| Entity      | Language    | Precision   :| Recall      :| F1              :|          
-| ----------- | ----------- | ------------ | ------------ | ---------------- |
+| Entity      | Language    | Precision    | Recall       | F1               |          
+| ----------- | ----------- | -----------: | -----------: | ---------------: |
 | CLINENTITY  |             |              |              |                  |
 |             | English     | 91.45        | 84.25        | 87.70            |
 |             | French      | 83.10        | 65.07        | 72.99            |
@@ -158,8 +158,8 @@ The E3C corpus allows for training and evaluation of information extraction syst
 
 Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt to get the list of documents for training).
 
-| Language    | Training    :| Test        :|   
-| ----------- | ------------ | ------------ |
+| Language    | Training     | Test         |   
+| ----------- | -----------: | -----------: |
 | English     | 36           | 48           |
 | French      | 36           | 45           |
 | Italian     | 36           | 50           |
@@ -171,8 +171,8 @@ Table 8: number of documents in the training and test partition.<br>
 Layer 2: 50-100K tokens per language of clinical narratives with automatic annotation of clinical entities and manual check of a small sample (about 10%) of this annotation. 
 This data can be used together with or alternatively to the training data of Layer 1 to train models.
 
-| Language    | Training    :|
-| ----------- | ------------ |
+| Language    | Training     |
+| ----------- | -----------: |
 | English     | 171          |
 | French      | 168          |
 | Italian     | 174          |
@@ -183,8 +183,8 @@ Table 9: number of automatically annotated documents that might be used for trai
 
 Layer 3: about  1M  tokens  per  language  of non-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
 
-| Language    | Training    :|      
-| ----------- | ------------ |
+| Language    | Training     |      
+| ----------- | -----------: |
 | English     | 9779         |
 | French      | 25740        |
 | Italian     | 10213        |
