@@ -169,7 +169,7 @@ Layer 1: about 25K tokens per language of clinical narratives with full manual a
 Table 8: number of documents in the training and test partition.<br>
 
 Layer 2: 50-100K tokens per language of clinical narratives with automatic annotation of clinical entities and manual check of a small sample (about 10%) of this annotation. 
-This data can be used together with or alternatively to the training data of Layer 1 to train models.
+This data might be used together with the training data of Layer 1 to train models.
 
 | Language    | Training     |
 | ----------- | -----------: |
