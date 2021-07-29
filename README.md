@@ -34,8 +34,8 @@ Table 1: number of documents (tokens counted by whitespace) per language and lay
 
 We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this distribution.
 
-| Layer       | Source      | English     :| French      :| Italian     :| Spanish     :| Basque      :|
-| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
+| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | -----------: |
 | L1+L2       |             |              |              |              |              |              |
 |             | pubmed      | 91           | 48           | 0            | 0            | 0            |
 |             | journal     | 164          | 201          | 206          | 0            | 201          |
