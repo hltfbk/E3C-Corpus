@@ -125,16 +125,14 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 
 About 10% of the tokens annotated in Layer 2 with clinical entities have been manually verified.
 
-|                     | Entity              | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Documents           |                     |                     |  19          | 18           | 18           | 18           | 10           |
-| Sentences*          |                     |                     |  334         | 293          | 275          | 261          | 468          |
-| Tokens*             |                     |                     |  6654        | 6220         | 6698         | 6361         | 5031         |
-|                     | CLINENTITY          |                     |              |              |              |              |              |
-|                     |                     | Number              |  254         | 272          | 226          | 330          | 336          |
-|                     |                     | Precision           | 2140         | 2033         | 1686         | 76.45        | 488          |
-|                     |                     | Recall              | 2140         | 2033         | 1686         | 67.88        | 488          |
-|                     |                     | F1                  | 2140         | 2033         | 1686         | 71.91        | 488          |
+|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     |  19          | 18           | 18           | 18           | 10           |
+| Sentences*          |                     |  334         | 293          | 275          | 261          | 468          |
+| Tokens*             |                     |  6654        | 6220         | 6698         | 6361         | 5031         |
+|                     | CLINENTITY          |  254         | 272          | 226          | 330          | 336          |
+
+
 
 
 Table 6: number of curated entities in Layer 2.<br>
