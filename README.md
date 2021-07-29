@@ -158,11 +158,40 @@ The E3C corpus allows for training and evaluation of information extraction syst
 
 Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt to get the list of documents for training).
 
+| Language    | Training     | Test         |   
+| ----------- | ------------ | ------------ |
+| English     | 36           | 48           |
+| French      | 36           | 45           |
+| Italian     | 36           | 50           |
+| Spanish     | 36           | 45           |
+| Basque      | 34           | 56           |
+
+Table 8: number of documents in the training and test partition.<br>
+
 Layer 2: 50-100K tokens per language of clinical narratives with automatic annotation of clinical entities and manual check of a small sample (about 10%) of this annotation. 
 This data can be used together with or alternatively to the training data of Layer 1 to train models.
 
+| Language    | Training     |
+| ----------- | ------------ |
+| English     | 171          |
+| French      | 168          |
+| Italian     | 174          |
+| Spanish     | 162          |
+| Basque      | 111          |
+
+Table 9: number of automatically annotated documents that might be used for training.<br>
+
 Layer 3: about  1M  tokens  per  language  of non-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
 
+| Language    |            |      
+| ----------- | ------------ |
+| English     | 9779         |
+| French      | 25740        |
+| Italian     | 10213        |
+| Spanish     | 1876         | 
+| Basque      | 1232         | 
+
+Table 10: additional data.
 
 ## E3C Project Web Site
 
