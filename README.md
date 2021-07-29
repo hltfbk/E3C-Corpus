@@ -37,15 +37,15 @@ We collected clinical narratives extracted either from publications, such as Pub
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
 | ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
 | L1+L2       |             |              |              |              |              |              |
-|             | pubmed      | 91           | 48           | 0            | 0            | 0            |
-|             | journal     | 164          | 201          | 206          | 0            | 201          |
-|             | dataset     | 0            | 0            | 0            | 243          | 0            |
-|             | other       | 0            | 0            | 54           | 0            | 0            |
+|             | pubmed      | 91          :| 48           | 0            | 0            | 0            |
+|             | journal     | 164         :| 201          | 206          | 0            | 201          |
+|             | dataset     | 0           :| 0            | 0            | 243          | 0            |
+|             | other       | 0           :| 0            | 54           | 0            | 0            |
 | L3          |             |              |              |              |              |              |
-|             | pubmed      | 9227         | 84           | 0            | 0            | 0            |
-|             | journal     | 552          | 1436         | 592          | 504          | 0            |
-|             | dataset     | 0            | 0            | 0            | 1372         | 0            |
-|             | other       | 0            | 24220        | 9621         | 0            | 1232         |
+|             | pubmed      | 9227        :| 84           | 0            | 0            | 0            |
+|             | journal     | 552         :| 1436         | 592          | 504          | 0            |
+|             | dataset     | 0           :| 0            | 0            | 1372         | 0            |
+|             | other       | 0           :| 24220        | 9621         | 0            | 1232         |
 
 Table 2: number of documents per source and layer.
 <br/><br/>
