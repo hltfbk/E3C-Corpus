@@ -135,7 +135,7 @@ Table 6: number of manually annotated entities in a subset of documents of Layer
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 
 
-Table 7 reports the accuracy of the entities extracted automatically by dictionary matching.
+For a subset of documents of Layer 2, Table 7 reports the accuracy of the entities recognized automatically by dictionary matching.
 
 | Entity      | Language    | Precision    | Recall       | F1               |          
 | ----------- | ----------- | ------------ | ------------ | ---------------- |
@@ -146,14 +146,7 @@ Table 7 reports the accuracy of the entities extracted automatically by dictiona
 |             | Spanish     | 76.45        | 67.88        | 71.92            |
 |             | Basque      | 92.86        | 30.95        | 46.43            |
 
-Table 7: Precision, Recall and F1 measure of the entities in Layer 2.<br>
-(*) produced by [WebAnno](https://webanno.github.io/webanno/)
-
-
-
-Table 6: number of curated entities in Layer 2.<br>
-(*) produced by [WebAnno](https://webanno.github.io/webanno/)
-<br/><br/>
+Table 7: Precision, Recall and F1 measure of the entities extracted from a subset of documents of Layer 2.<br>
 
 
 ## Data Distribution and Licence
