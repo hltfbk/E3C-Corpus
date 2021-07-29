@@ -120,7 +120,7 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 <br/><br/>
 
 
-## Data Curation
+## Data Validation
 
 To have an overall estimation of the quality of the clinical entities in Layer 2, about 10% of the tokens in Layer 2 have been manually annotated (Table 6). Table 7 reports the accuracy values calculated on the entities extracted by dictionary matching from this subset of tokens.
 
