@@ -183,7 +183,7 @@ Table 9: number of automatically annotated documents that might be used for trai
 
 Layer 3: about  1M  tokens  per  language  of non-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
 
-| Language    |            |      
+| Language    | Training     |      
 | ----------- | ------------ |
 | English     | 9779         |
 | French      | 25740        |
@@ -191,7 +191,8 @@ Layer 3: about  1M  tokens  per  language  of non-annotated medical documents (n
 | Spanish     | 1876         | 
 | Basque      | 1232         | 
 
-Table 10: additional data.
+Table 10: number of unannotated documents that might be used for training.<br>
+
 
 ## E3C Project Web Site
 
