@@ -144,7 +144,7 @@ Table 6: number of manually annotated entities in Layer 2.<br>
 |             | Spanish     | 76.45        | 67.88        | 71.92            |
 |             | Basque      | 92.86        | 30.95        | 46.43            |
 
-Table 7: Precision, Recall and F1 measure of the entities that were manually verified.<br>
+Table 7: Precision, Recall and F1 measure of the entities in the subset of tokens to check.<br>
 
 
 ## Data Distribution and Licence
