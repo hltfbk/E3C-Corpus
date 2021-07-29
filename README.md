@@ -137,8 +137,8 @@ Table 6: number of automatically annotated entities in Layer 2.<br>
 | Language    | Precision    | Recall       | F1               |          
 | ----------- | ------------ | ------------ | ---------------- |
 | English     | 91.45        | 84.25        | 87.70            |
-| French      | 81 (25196)   | 168 (50490)  | 25740 (66281501) |
-| Italian     | 86 (24319)   | 174 (49900)  | 10213 (13601915) |
+| French      |              |              |                  |
+| Italian     | 91.21        | 73.45        | 81.37            |
 | Spanish     | 76.45        | 67.88        | 71.92            |
 | Basque      | 92.86        | 30.95        | 46.43            |
 
