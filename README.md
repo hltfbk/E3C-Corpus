@@ -134,13 +134,14 @@ About 10% of the tokens annotated in Layer 2 with clinical entities have been ma
 Table 6: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 
-| Language    | Precision    | Recall       | F1               |          
-| ----------- | ------------ | ------------ | ---------------- |
-| English     | 91.45        | 84.25        | 87.70            |
-| French      |              |              |                  |
-| Italian     | 91.21        | 73.45        | 81.37            |
-| Spanish     | 76.45        | 67.88        | 71.92            |
-| Basque      | 92.86        | 30.95        | 46.43            |
+| Entity      | Language    | Precision    | Recall       | F1               |          
+| ----------- | ----------- | ------------ | ------------ | ---------------- |
+| CLINENTITY  |             |              |              |                  |
+|             | English     | 91.45        | 84.25        | 87.70            |
+|             | French      |              |              |                  |
+|             | Italian     | 91.21        | 73.45        | 81.37            |
+|             | Spanish     | 76.45        | 67.88        | 71.92            |
+|             | Basque      | 92.86        | 30.95        | 46.43            |
 
 Table 7: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
