@@ -122,7 +122,7 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 
 ## Data Curation
 
-To have an overall estimation of the quality of the clinical entities in Layer 2, about 10% of the tokens in Layer 2 have been manually annotated by experts (Table 6).
+To have an overall estimation of the quality of the clinical entities in Layer 2, about 10% of the tokens in Layer 2 have been manually annotated (Table 6). Table 7 reports the accuracy values calculated on the entities extracted from this subset of tokens.
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -131,11 +131,9 @@ To have an overall estimation of the quality of the clinical entities in Layer 2
 | Tokens*             |                     | 6654         | 6220         | 6698         | 6361         | 5031         |
 |                     | CLINENTITY          | 254          | 272          | 226          | 330          | 336          |
 
-Table 6: number of manually annotated entities in a subset of documents of Layer 2.<br>
+Table 6: number of manually annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 
-
-For a subset of documents of Layer 2, Table 7 reports the accuracy of the entities recognized automatically by dictionary matching.
 
 | Entity      | Language    | Precision    | Recall       | F1               |          
 | ----------- | ----------- | ------------ | ------------ | ---------------- |
@@ -146,7 +144,7 @@ For a subset of documents of Layer 2, Table 7 reports the accuracy of the entiti
 |             | Spanish     | 76.45        | 67.88        | 71.92            |
 |             | Basque      | 92.86        | 30.95        | 46.43            |
 
-Table 7: Precision, Recall and F1 measure of the entities extracted from a subset of documents of Layer 2.<br>
+Table 7: Precision, Recall and F1 measure of the entities that were manually verified.<br>
 
 
 ## Data Distribution and Licence
