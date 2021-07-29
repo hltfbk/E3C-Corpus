@@ -106,7 +106,7 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 <br/><br/>
 
 
-**Layer 2:** Clinical entities in these documents have been automatically recognized by UMLS dictionary matching.
+**Layer 2:** Clinical entities in these documents have been automatically recognized by dictionary matching. The dictionary of each language was obtained by combining the entities present in the UMLS dictionaries of that language, and the entities annotated in the training split of Layer 1.
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -139,7 +139,7 @@ Table 6: number of manually annotated entities in Layer 2.<br>
 | ----------- | ----------- | ------------ | ------------ | ---------------- |
 | CLINENTITY  |             |              |              |                  |
 |             | English     | 91.45        | 84.25        | 87.70            |
-|             | French      |              |              |                  |
+|             | French      | 83.10        | 65.07        | 72.99            |
 |             | Italian     | 91.21        | 73.45        | 81.37            |
 |             | Spanish     | 76.45        | 67.88        | 71.92            |
 |             | Basque      | 92.86        | 30.95        | 46.43            |
