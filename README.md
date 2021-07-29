@@ -108,13 +108,16 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 
 **Layer 2:** Clinical entities in these documents have been automatically recognized by UMLS dictionary matching.
 
-|                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Documents           |                     | 171          | 168          | 174          | 162          | 111          |
-| Sentences*          |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
-| Tokens*             |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
-|                     | CLINENTITY          | 2140         | 2033         | 1686         | 2625         | 488          |
-
+|                     | Entity              |                     | English      | French       | Italian      | Spanish      | Basque       |
+| ------------------- | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Documents           |                     |                     | 171          | 168          | 174          | 162          | 111          |
+| Sentences*          |                     |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
+| Tokens*             |                     |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
+|                     | CLINENTITY          |                     |              |              |              |              |              |
+|                     |                     | Number              | 2140         | 2033         | 1686         | 2625         | 488          |
+|                     |                     | Precision           | 2140         | 2033         | 1686         | 76.45        | 488          |
+|                     |                     | Recall              | 2140         | 2033         | 1686         | 67.88        | 488          |
+|                     |                     | F1                  | 2140         | 2033         | 1686         | 71.91        | 488          |
 
 Table 5: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
