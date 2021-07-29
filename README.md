@@ -126,21 +126,21 @@ About 10% of the tokens annotated in Layer 2 with clinical entities have been ma
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Documents           |                     |  19          | 18           | 18           | 18           | 10           |
-| Sentences*          |                     |  334         | 293          | 275          | 261          | 468          |
-| Tokens*             |                     |  6654        | 6220         | 6698         | 6361         | 5031         |
-|                     | CLINENTITY          |  254         | 272          | 226          | 330          | 336          |
+| Documents           |                     | 19           | 18           | 18           | 18           | 10           |
+| Sentences*          |                     | 334          | 293          | 275          | 261          | 468          |
+| Tokens*             |                     | 6654         | 6220         | 6698         | 6361         | 5031         |
+|                     | CLINENTITY          | 254          | 272          | 226          | 330          | 336          |
 
 Table 6: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 
 | Language    | Precision    | Recall       | F1               |          
 | ----------- | ------------ | ------------ | ---------------- |
-| English     | 84 (25142)   | 171 (50371)  | 9779 (1075709)   |
+| English     | 91.45        | 84.25        | 87.70            |
 | French      | 81 (25196)   | 168 (50490)  | 25740 (66281501) |
 | Italian     | 86 (24319)   | 174 (49900)  | 10213 (13601915) |
 | Spanish     | 76.45        | 67.88        | 71.92            |
-| Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
+| Basque      | 92.86        | 30.95        | 46.43            |
 
 Table 7: number of automatically annotated entities in Layer 2.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
