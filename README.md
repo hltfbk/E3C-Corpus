@@ -87,19 +87,19 @@ The documents in Layer 1 contain full manual annotation of clinical entities, te
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
-| Documents           |                     |              |              |              | 81           | 90           |
-| Sentences*          |                     |              |              |              | 1134         | 3126         |
-| Tokens*             |                     |              |              |              | 28815        | 34052        |
-|                     | CLINENTITY          |              |              |              | 1345         | 1910         |
-|                     | EVENT               |              |              |              | 4767         | 7910         |
-|                     | ACTOR               |              |              |              | 319          | 505          |
-|                     | BODYPART            |              |              |              | 814          | 1410         |
-|                     | TIMEX3              |              |              |              | 383          | 638          |
-|                     | RML                 |              |              |              | 391          | 1101         |
-|                     | TIMEX3TimexLinkLink |              |              |              | 604          | 969          |
-|                     | RMLPERTAINSTOLink   |              |              |              | 473          | 1196         |
-|                     | EVENTTLINKLink      |              |              |              | 4096         | 7012         |
-|                     | EVENTALINKLink      |              |              |              | 92           | 113          |
+| Documents           |                     |              | 81           |              | 81           | 90           |
+| Sentences*          |                     |              | 1109         |              | 1134         | 3126         |
+| Tokens*             |                     |              | 29256        |              | 28815        | 34052        |
+|                     | CLINENTITY          |              | 1327         |              | 1345         | 1910         |
+|                     | EVENT               |              | 4312         |              | 4767         | 7910         |
+|                     | ACTOR               |              | 427          |              | 319          | 505          |
+|                     | BODYPART            |              | 659          |              | 814          | 1410         |
+|                     | TIMEX3              |              | 333          |              | 383          | 638          |
+|                     | RML                 |              | 508          |              | 391          | 1101         |
+|                     | TIMEX3TimexLinkLink |              | 236          |              | 604          | 969          |
+|                     | RMLPERTAINSTOLink   |              | 474          |              | 473          | 1196         |
+|                     | EVENTTLINKLink      |              | 3848         |              | 4096         | 7012         |
+|                     | EVENTALINKLink      |              | 71           |              | 92           | 113          |
 
 Table 4: number of manually annotated entities in Layer 1.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
