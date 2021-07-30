@@ -22,7 +22,7 @@ The E3C corpus is organised into three layers (Table 1).
 <br/><br/> 
 
 | Language    | L1           | L2           | L3               |          
-| ----------- | ------------ | ------------ | ---------------- |
+| ----------- | -----------: | -----------: | ---------------: |
 | English     | 84 (25142)   | 171 (50371)  | 9779 (1075709)   |
 | French      | 81 (25196)   | 168 (50490)  | 25740 (66281501) |
 | Italian     | 86 (24319)   | 174 (49900)  | 10213 (13601915) |
@@ -35,7 +35,7 @@ Table 1: number of documents (tokens counted by whitespace) per language and lay
 We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this distribution.
 
 | Layer       | Source      | English      | French       | Italian      | Spanish      | Basque       |
-| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ----------- | ----------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | L1+L2       |             |              |              |              |              |              |
 |             | pubmed      | 91           | 48           | 0            | 0            | 0            |
 |             | journal     | 164          | 201          | 206          | 0            | 201          |
@@ -53,7 +53,7 @@ Table 2: number of documents per source and layer.
 Since the length of the documents may affect the temporal information in text (i.e., the longer the  text,  the more complex temporal graph) we created a balanced document set in terms of size (Table 3). Short (<200 tokens), medium (200–400 tokens) and long (400–600 tokens).
 
 | Layer       | Size        | English      | French       | Italian      | Spanish      | Basque       |
-| ----------- | ----------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ----------- | ----------: | -----------: | -----------: | -----------: | -----------: | -----------: |
 | L1          |             |              |              |              |              |              |
 |             | short       | 28           | 24           | 29           | 27           | 36           |
 |             | medium      | 28           | 29           | 29           | 27           | 44           |
@@ -86,20 +86,20 @@ The documents in Layer 1 contain full manual annotation of clinical entities, te
 
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Documents           |                     |              |              |              | 81           | 90           |
-| Sentences*          |                     |              |              |              | 1134         | 3126         |
-| Tokens*             |                     |              |              |              | 28815        | 34052        |
-|                     | CLINENTITY          |              |              |              | 1345         | 1910         |
-|                     | EVENT               |              |              |              | 4767         | 7910         |
-|                     | ACTOR               |              |              |              | 319          | 505          |
-|                     | BODYPART            |              |              |              | 814          | 1410         |
-|                     | TIMEX3              |              |              |              | 383          | 638          |
-|                     | RML                 |              |              |              | 391          | 1101         |
-|                     | TIMEX3TimexLinkLink |              |              |              | 604          | 969          |
-|                     | RMLPERTAINSTOLink   |              |              |              | 473          | 1196         |
-|                     | EVENTTLINKLink      |              |              |              | 4096         | 7012         |
-|                     | EVENTALINKLink      |              |              |              | 92           | 113          |
+| ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
+| Documents           |                     |              | 81           |              | 81           | 90           |
+| Sentences*          |                     |              | 1109         |              | 1134         | 3126         |
+| Tokens*             |                     |              | 29256        |              | 28815        | 34052        |
+|                     | CLINENTITY          |              | 1327         |              | 1345         | 1910         |
+|                     | EVENT               |              | 4312         |              | 4767         | 7910         |
+|                     | ACTOR               |              | 427          |              | 319          | 505          |
+|                     | BODYPART            |              | 659          |              | 814          | 1410         |
+|                     | TIMEX3              |              | 333          |              | 383          | 638          |
+|                     | RML                 |              | 508          |              | 391          | 1101         |
+|                     | TIMEX3TimexLinkLink |              | 236          |              | 604          | 969          |
+|                     | RMLPERTAINSTOLink   |              | 474          |              | 473          | 1196         |
+|                     | EVENTTLINKLink      |              | 3848         |              | 4096         | 7012         |
+|                     | EVENTALINKLink      |              | 71           |              | 92           | 113          |
 
 Table 4: number of manually annotated entities in Layer 1.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
@@ -109,7 +109,7 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 **Layer 2:** Clinical entities in these documents have been automatically recognized by dictionary matching. The dictionary of each language was obtained by combining the entities present in the UMLS dictionaries of that language, and the entities annotated in the training split of Layer 1.
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | Documents           |                     | 171          | 168          | 174          | 162          | 111          |
 | Sentences*          |                     | 2873         | 2389         | 2436         | 2347         | 1594         |
 | Tokens*             |                     | 59006        | 58523        | 61992        | 57875        | 18784        |
@@ -125,7 +125,7 @@ Table 5: number of automatically annotated entities in Layer 2.<br>
 To have an overall estimation of the quality of the clinical entities in Layer 2, about 10% of the tokens in Layer 2 have been manually annotated (Table 6). Table 7 reports the accuracy values calculated on the entities extracted by dictionary matching from this subset of tokens.
 
 |                     | Entity              | English      | French       | Italian      | Spanish      | Basque       |
-| ------------------- | ------------------- | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------------- | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
 | Documents           |                     | 19           | 18           | 18           | 18           | 10           |
 | Sentences*          |                     | 334          | 293          | 275          | 261          | 468          |
 | Tokens*             |                     | 6654         | 6220         | 6698         | 6361         | 5031         |
@@ -136,7 +136,7 @@ Table 6: number of manually annotated entities in Layer 2.<br>
 
 
 | Entity      | Language    | Precision    | Recall       | F1               |          
-| ----------- | ----------- | ------------ | ------------ | ---------------- |
+| ----------- | ----------- | -----------: | -----------: | ---------------: |
 | CLINENTITY  |             |              |              |                  |
 |             | English     | 91.45        | 84.25        | 87.70            |
 |             | French      | 83.10        | 65.07        | 72.99            |
@@ -158,10 +158,40 @@ The E3C corpus allows for training and evaluation of information extraction syst
 
 Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt to get the list of documents for training).
 
+| Language    | Training     | Test         |   
+| ----------- | -----------: | -----------: |
+| English     | 36           | 48           |
+| French      | 36           | 45           |
+| Italian     | 36           | 50           |
+| Spanish     | 36           | 45           |
+| Basque      | 34           | 56           |
+
+Table 8: number of documents in the training and test partition.<br>
+
 Layer 2: 50-100K tokens per language of clinical narratives with automatic annotation of clinical entities and manual check of a small sample (about 10%) of this annotation. 
-This data can be used together with or alternatively to the training data of Layer 1 to train models.
+This data might be used together with the training data of Layer 1 to train models.
+
+| Language    | Training     |
+| ----------- | -----------: |
+| English     | 171          |
+| French      | 168          |
+| Italian     | 174          |
+| Spanish     | 162          |
+| Basque      | 111          |
+
+Table 9: number of automatically annotated documents that might be used for training.<br>
 
 Layer 3: about  1M  tokens  per  language  of non-annotated medical documents (not necessarily clinical narratives) to be exploited by semi-supervised approaches.
+
+| Language    | Training     |      
+| ----------- | -----------: |
+| English     | 9779         |
+| French      | 25740        |
+| Italian     | 10213        |
+| Spanish     | 1876         | 
+| Basque      | 1232         | 
+
+Table 10: number of unannotated documents that might be used for training.<br>
 
 
 ## E3C Project Web Site
