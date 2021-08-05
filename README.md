@@ -29,7 +29,7 @@ The E3C corpus is organised into three layers (Table 1).
 | Spanish     | 81 (24681)   | 162 (49351)  | 1876 (1030907)   |
 | Basque      | 90 (22505)   | 111 (12541)  | 1232 (518244)    |
 
-Table 1: number of documents (tokens counted by whitespace) per language and layer. [anchorName]{#anchorName}
+Table 1: number of documents (tokens counted by whitespace) per language and layer. <a name="the_header">The Header</a>
 <br/><br/>
 
 We collected clinical narratives extracted either from publications, such as PubMed (Journal Abstracts) and The Pan African Medical Journal (Journal), or from existing corpora like the SPACCC corpus (Dataset). Other documents were collected from admission tests for specialties in medicine, patient information leaflets for medicines and abstracts of theses in medical science. Table 2 shows this distribution.
