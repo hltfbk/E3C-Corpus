@@ -205,7 +205,7 @@ Table 10: number of unannotated documents that might be used for training.<br>
 
 ## Release Schedule
 
-v1.1.0
+**v1.1.0**
 
 Date: May 2021
 
@@ -213,13 +213,14 @@ New features:
 
 * Data collection
 
-v2.0.0
+**v2.0.0**
 
 Date: July 2021
 
 New features:
 
 * Clinical Cases annotated
+* Annotation guidelines
 
 
 ## Acknowledgements
