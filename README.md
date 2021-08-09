@@ -152,11 +152,16 @@ Table 7: Precision, Recall and F1 measure of the entities in the subset of token
 The E3C corpus is released under Creative Commons NonCommercial license (**CC BY-NC**).
 
 
+## Annotation Guidelines
+
+The documentation directory contains the annotation guidelines for clinical entities, temporal information and factuality annotation.
+
+
 ## E3C for Machine Learning
 
 The E3C corpus allows for training and evaluation of information extraction systems. To let researchers compare their models under the same experimental conditions, the three layers of which E3C is made have to be used as following. 
 
-Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt to get the list of documents for training).
+Layer 1: about 25K tokens per language of clinical narratives with full manual annotation of clinical entities, temporal information and factuality. It comes with two partitions, one for training purposes (about 10K tokens) and one for testing (models evaluation) (see train_test_split.txt in documentation to get the list of documents for training).
 
 | Language    | Training     | Test         |   
 | ----------- | -----------: | -----------: |
