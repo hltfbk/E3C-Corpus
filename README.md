@@ -90,15 +90,15 @@ The documents in Layer 1 contain full manual annotation of clinical entities, te
 | Sentences*          |                     |  1520        | 1109         | 1146         | 1134         | 3126         |
 | Tokens*             |                     |  29359       | 29256        | 29902        | 28815        | 34052        |
 |                     | CLINENTITY          |  1024        | 1327         | 869          | 1345         | 1910         |
-|                     | EVENT               |  4885        | 4312         | 2062         | 4767         | 7910         |
-|                     | ACTOR               |  682         | 427          | 235          | 319          | 505          |
-|                     | BODYPART            |  968         | 659          | 170          | 814          | 1410         |
-|                     | TIMEX3              |  380         | 333          | 197          | 383          | 638          |
-|                     | RML                 |  480         | 508          | 253          | 391          | 1101         |
-|                     | TIMEX3TimexLinkLink |  502         | 236          | 41           | 604          | 969          |
-|                     | RMLPERTAINSTOLink   |  541         | 474          | 301          | 473          | 1196         |
-|                     | EVENTTLINKLink      |  4350        | 3848         | 274          | 4096         | 7012         |
-|                     | EVENTALINKLink      |  114         | 71           | 68           | 92           | 113          |
+|                     | EVENT               |  4885        | 4312         | 3385         | 4767         | 7910         |
+|                     | ACTOR               |  682         | 427          | 338          | 319          | 505          |
+|                     | BODYPART            |  968         | 659          | 328          | 814          | 1410         |
+|                     | TIMEX3              |  380         | 333          | 298          | 383          | 638          |
+|                     | RML                 |  480         | 508          | 383          | 391          | 1101         |
+|                     | TIMEX3TimexLinkLink |  502         | 236          | 161          | 604          | 969          |
+|                     | RMLPERTAINSTOLink   |  541         | 474          | 444          | 473          | 1196         |
+|                     | EVENTTLINKLink      |  4350        | 3848         | 989          | 4096         | 7012         |
+|                     | EVENTALINKLink      |  114         | 71           | 109          | 92           | 113          |
 
 Table 4: number of manually annotated entities in Layer 1.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
