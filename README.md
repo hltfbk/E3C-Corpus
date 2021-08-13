@@ -225,7 +225,7 @@ New features:
 
 ## Acknowledgements
 
-This work was partially supported by the European  Language  Grid  project  through  its open  call  for  pilot  projects  (EU  grant  no.825627),   and  by  the  Basque  Government post-doctoral grant POS202020026.
+This work was partially supported by the European  Language  Grid  project  through  its open  call  for  pilot  projects  (EU  grant  no.825627),   and  by  the  Basque  Government post-doctoral grant POS202020026. The E3C corpus has been publised on [ELG Platform](https://live.european-language-grid.eu/catalogue/corpus/7618).
 
 
 ## References
