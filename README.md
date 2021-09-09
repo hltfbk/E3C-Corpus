@@ -104,11 +104,15 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
 
+An entity in a document was assigned one CUI from the UMLS; otherwise, it was assigned CUI-less (e.g., lesions in the mid portion of the Left Descending Coronary Artery). Then, some entity spans in text may be discontinuous (e.g., "vascular or neurologic signs").  
+
 | CLINENTITY          | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
-| CUILESS             | 13           | 168          | 174          | 162          | 111          |
-| DISCONTINUOUS       | 65           | 2389         | 2436         | 2347         | 1594         |
+| CUILESS             | 13           | 207          | 0            | 91           | 1373         |
+| DISCONTINUOUS       | 65           | 59           | 42           | 35           | 19           |
 
+Table 4.1: number of CUI-less and discontinous entities in Layer 1.<br>
+<br/><br/>
 
 
 **Layer 2:** Clinical entities in these documents have been automatically recognized by dictionary matching. The dictionary of each language was obtained by combining the entities present in the UMLS dictionaries of that language, and the entities annotated in the training split of Layer 1.
