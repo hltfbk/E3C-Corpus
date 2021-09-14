@@ -215,6 +215,8 @@ Table 10: number of unannotated documents that might be used for training.<br>
 
 ## Release Schedule
 
+All releases are available from the [ELG catalog](https://live.european-language-grid.eu/catalogue)
+
 **v1.1.0**
 
 [Download](https://live.european-language-grid.eu/catalogue/corpus/7269])
