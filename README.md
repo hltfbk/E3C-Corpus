@@ -213,7 +213,7 @@ Table 10: number of unannotated documents that might be used for training.<br>
 [https://e3c.fbk.eu/home](https://e3c.fbk.eu/home)
 
 
-## Release Schedule
+## Release Schedule and Distribution
 
 All releases are available from the [ELG catalog](https://live.european-language-grid.eu/catalogue)
 
