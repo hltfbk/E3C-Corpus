@@ -215,7 +215,7 @@ Table 10: number of unannotated documents that might be used for training.<br>
 
 ## Release Schedule and Distribution
 
-All releases are available from the [ELG catalog](https://live.european-language-grid.eu/catalogue)
+All the releases of the corpus are available from the [European Language Grid catalog](https://live.european-language-grid.eu/catalogue)
 
 **v1.1.0**
 
