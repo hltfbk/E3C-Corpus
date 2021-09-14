@@ -154,7 +154,7 @@ Table 6: number of manually annotated entities in Layer 2.<br>
 Table 7: Precision, Recall and F1 measure of the entities in the subset of tokens to check.<br>
 
 
-## Data Distribution and Licence
+## Data Licence
 
 The E3C corpus is released under Creative Commons NonCommercial license (**CC BY-NC**).
 
