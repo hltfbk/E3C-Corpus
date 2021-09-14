@@ -217,6 +217,8 @@ Table 10: number of unannotated documents that might be used for training.<br>
 
 **v1.1.0**
 
+[https://live.european-language-grid.eu/catalogue/corpus/7269](Download)
+
 Date: May 2021
 
 New features:
