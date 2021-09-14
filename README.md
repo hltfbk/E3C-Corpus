@@ -66,8 +66,6 @@ Since the length of the documents may affect the temporal information in text (i
 Table 3: number of documents of short, medium and long length in Layer 1 and Layer 2.
 <br/><br/>
 
-**Release [v1.1.0](https://github.com/hltfbk/E3C-Corpus/releases/tag/v1.1.0) of the corpus contains all the documents collected through data collection.**
-
 
 ## Data Cleaning
 
