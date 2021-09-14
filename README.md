@@ -219,9 +219,9 @@ All the releases of the corpus are available from the [European Language Grid ca
 
 **v1.1.0**
 
-[Download](https://live.european-language-grid.eu/catalogue/corpus/7269])
-
 Date: May 2021
+
+[Download](https://live.european-language-grid.eu/catalogue/corpus/7269)
 
 New features:
 
@@ -230,6 +230,8 @@ New features:
 **v2.0.0**
 
 Date: July 2021
+
+[Download](https://live.european-language-grid.eu/catalogue/corpus/7618)
 
 New features:
 
