@@ -102,7 +102,7 @@ Table 4: number of manually annotated entities in Layer 1.<br>
 (*) produced by [WebAnno](https://webanno.github.io/webanno/)
 <br/><br/>
 
-An entity in a document was assigned one CUI from the UMLS; otherwise, it was assigned CUI-LESS (e.g., lesions in the mid portion of the Left Descending Coronary Artery) and may be labeled optionally with its CUI-EN obtained by matching the entity with its corresponding English concept in UMLS. Then, some entity spans in text may be discontinuous (e.g., "vascular or neurologic signs").  
+An entity in a document was assigned one CUI from the UMLS; otherwise, it was assigned CUI-LESS and may be optionally labeled with its CUI-EN obtained by matching the entity with its corresponding English concept in UMLS. Then, some entity spans in text may be discontinuous (e.g., "vascular or neurologic signs").  
 
 | CLINENTITY          | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
