@@ -208,7 +208,7 @@ Table 10: number of unannotated documents that might be used for training.<br>
 
 ## Load E3C in WebAnno
 
-[WebAnno](https://webanno.github.io/webanno/) is a general purpose web-based annotation tool for a wide range of linguistic annotations including various layers of morphological, syntactical, and semantic annotations. While we used WebAnno to annotate the E3C corpus, users can exploit WebAnno to view the annotations in a web-based graphical form. The WebAnno directory included in the distribution contains both the project template and the instructions to load E3C in WebAnno (or in [INCEpTION](https://inception-project.github.io/)). 
+[WebAnno](https://webanno.github.io/webanno/) is a general purpose web-based annotation tool for a wide range of linguistic annotations including various layers of morphological, syntactical, and semantic annotations. While we used WebAnno to annotate the E3C corpus, users can exploit WebAnno to view the annotations in a web-based graphical form. The WebAnno directory included in this distribution contains both the project template and the instructions to load E3C in WebAnno (or in [INCEpTION](https://inception-project.github.io/)). 
 
 
 ## E3C Project Web Site
