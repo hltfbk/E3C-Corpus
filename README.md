@@ -106,7 +106,7 @@ An entity in a document was assigned one CUI from the UMLS; otherwise, it was as
 
 | CLINENTITY          | English      | French       | Italian      | Spanish      | Basque       |
 | ------------------- | -----------: | -----------: | -----------: | -----------: | -----------: |
-| CUI-LESS (CUI-EN)   | 56           | 207 (158)    | 0            | 91 (36)      | 1373 (1310)  |
+| CUI-LESS (CUI-EN)   | 56           | 242 (188)    | 63 (27)      | 91 (36)      | 1373 (1310)  |
 | DISCONTINUOUS       | 65           | 59           | 42           | 35           | 19           |
 
 Table 4.1: number of CUI-LESS and discontinuous entities in Layer 1. <br>
