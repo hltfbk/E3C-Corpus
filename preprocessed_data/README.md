@@ -15,18 +15,8 @@ been removed from consideration. Another issue that had to be addressed was rela
 a document (IT101195). Given that it was not possible to parse this document correctly, the latter
 has been discarded from the corpus.
 
-|             |          Grouping           ||
-First Header  | Second Header | Third Header |
- ------------ | :-----------: | -----------: |
-Content       |          *Long Cell*        ||
-Content       |   **Cell**    |         Cell |
 
-New section   |     More      |         Data |
-And more      | With an escaped '\|'         ||  
-[Prototype table]
-
-
-|   | Training           || Test                ||
+| >  | Training           || Test                ||
 |---|---|---|---|---|
 |   | Gold | Preprocessed | Gold | Preprocessed |
 | all     | 2,791  | 2,695  | 3,684  | 3,526  |
