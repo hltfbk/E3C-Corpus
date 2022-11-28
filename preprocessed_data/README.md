@@ -16,7 +16,7 @@ a document (IT101195). Given that it was not possible to parse this document cor
 has been discarded from the corpus.
 
 
-| >  | Training           || Test                ||
+|  |  Training           | Test                |
 |---|---|---|---|---|
 |   | Gold | Preprocessed | Gold | Preprocessed |
 | all     | 2,791  | 2,695  | 3,684  | 3,526  |
