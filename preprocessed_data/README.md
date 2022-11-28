@@ -16,13 +16,12 @@ a document (IT101195). Given that it was not possible to parse this document cor
 has been discarded from the corpus.
 
 |   | Gold | Preprocessed |
-|---|---|---|---|---|
+|---|---|---|
 | English |   1,024  |   953  |
 | French  |   1,327  | 1,264  |
 | Italian |     869  |   805  |
 | Spanish |   1,345  | 1,309  |
 | Basque  |   1,910  | 1,889  |
-
-Number of annotated entities before and after data pre-processing.
+[Number of annotated entities before and after data pre-processing]
 
 # Temporal Information
