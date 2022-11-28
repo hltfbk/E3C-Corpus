@@ -15,4 +15,16 @@ been removed from consideration. Another issue that had to be addressed was rela
 a document (IT101195). Given that it was not possible to parse this document correctly, the latter
 has been discarded from the corpus.
 
+|   | Training | Test |
+|   | Gold | Preprocessed | Gold | Preprocessed |
+|---|---|---|---|---|
+| all     | 2,791  | 2,695  | 3,684  | 3,526  |
+| English |   463  |   437  |   561  |   516  |
+| French  |   596  |   569  |   731  |   695  |
+| Italian |   361  |   345  |   508  |   481  |
+| Spanish |   525  |   509  |   820  |   800  |
+| Basque  |   846  |   835  | 1,064  | 1,054  |
+
+Number of annotated entities before and after data pre-processing.
+
 # Temporal Information
