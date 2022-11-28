@@ -22,6 +22,7 @@ has been discarded from the corpus.
 | Italian |     869  |   805  |
 | Spanish |   1,345  | 1,309  |
 | Basque  |   1,910  | 1,889  |
+
 [Number of annotated entities before and after data pre-processing]
 
 # Temporal Information
