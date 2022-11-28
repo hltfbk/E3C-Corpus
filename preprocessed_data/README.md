@@ -14,3 +14,5 @@ present in the corpus (3.4% and 0.2% respectively). For this reason, this kind o
 been removed from consideration. Another issue that had to be addressed was related to the character encoding of
 a document (IT101195). Given that it was not possible to parse this document correctly, the latter
 has been discarded from the corpus.
+
+# Temporal Information
