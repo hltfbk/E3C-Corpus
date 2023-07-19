@@ -252,3 +252,5 @@ This work was partially supported by the European  Language  Grid  project  thro
 ## References
 
 B. magnini, B. Altuna, A. Lavelli, M. Speranza, and R. Zanoli. 2020. The E3C Project: Collection and Annotation of a Multilingual Corpus of Clinical Cases. In Proceedings of the Seventh Italian Conference on Computational Linguistics, Bologna, Italy, December. Associazione Italiana di Linguistica Computazionale.
+
+Zanoli, R., Lavelli, A., Verdi do Amarante, D., & Toti, D. (2023). Assessment of the E3C corpus for the recognition of disorders in clinical texts. Natural Language Engineering, 1-19. [doi:10.1017/S1351324923000335](https://doi.org/10.1017/S1351324923000335)
